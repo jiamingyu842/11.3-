@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .zong {
+            height: 3000px;
+            width: 100%;
+        }
+
+        .one {
+            height: 70px;
+            width: 100%;
+            background-color: #fff;
+        }
+
+        #img1 {
+            float: left;
+            margin-top: 14px;
+            margin-left: 20%;
+            cursor: pointer;
+        }
+
+        #u0 {
+            float: left;
+            margin-left: 5%;
+        }
+
+        #u0 li {
+            float: left;
+            padding: 20px;
+            cursor: pointer;
+            line-height: 40px;
+        }
+
+        #inp1 {
+            float: left;
+            height: 40px;
+            width: 190px;
+            background-color: #ebebeb;
+            color: #757575;
+            margin-top: 16px;
+            margin-left: 10%;
+            border: 1px solid #fff;
+        }
+
+        #img2 {
+            position: absolute;
+            left: 84%;
+            top: 24px;
+            cursor: pointer;
+        }
+
+        .two {
+            height: 60px;
+            width: 100%;
+            background: #f0f0f0;
+        }
+
+        #u1 {
+            width: 15%;
+            margin-left: 20%;
+        }
+
+        #u1 li {
+            float: left;
+            padding: 0 20px;
+            font-size: 14px;
+            line-height: 40px;
+            color: #666666;
+        }
+
+        #img3 {
+            position: absolute;
+            left: 23%;
+            top: 94px;
+        }
+
+        #img4 {
+            position: absolute;
+            left: 28%;
+            top: 94px;
+        }
+
+        .san {
+            height: 600px;
+            width: 100%;
+        }
+
+        .san img {
+            width: 100%;
+        }
+
+        .si {
+            height: 200px;
+            width: 60%;
+            margin: auto;
+        }
+
+        #p1 {
+            width: 100%;
+            margin-top: 70px;
+            color: #333333;
+            line-height: 26px;
+        }
+
+        #p2 {
+            color: #333333;
+            line-height: 26px;
+        }
+
+        .wu {
+            height: 180px;
+            width: 60%;
+            margin: auto;
+            background-color: #f3f6f6;
+        }
+
+        .left {
+            float: left;
+            width: 33%;
+        }
+
+        .center {
+            float: left;
+            width: 33%;
+        }
+
+        .right {
+            float: left;
+            width: 33%;
+        }
+
+        .p01 {
+            padding-left: 30%;
+            padding-top: 20px;
+        }
+
+        .p02 {
+            padding-left: 30%;
+            padding-top: 20px;
+        }
+
+        .p03 {
+            padding-left: 30%;
+            padding-top: 20px;
+        }
+
+        a {
+            font-size: 40px;
+            text-decoration: none;
+            color: #00b4d5;
+        }
+
+        #img5 {
+            position: absolute;
+            left: 40%;
+            top: 1000px;
+
+        }
+
+        #img6 {
+            position: absolute;
+            left: 60%;
+            top: 1000px;
+
+        }
+
+        #p4 {
+            font-size: 16px;
+            color: #666694;
+        }
+
+        #p5 {
+            font-size: 16px;
+            color: #666694;
+        }
+
+        #p6 {
+            font-size: 16px;
+            color: #666694;
+        }
+
+        .wu span {
+            font-size: 16px;
+            color: #666694;
+        }
+
+        .liu {
+            height: 970px;
+            width: 100%;
+            background: linear-gradient(to bottom, #f4f4f4, #fff);
+            margin-top: 100px;
+        }
+
+        .box {
+            width: 60%;
+            margin: auto;
+            background: #fff;
+            margin-top: 50px;
+        }
+
+        .box1 {
+            width: 32%;
+            height: 700px;
+            float: left;
+        }
+
+        .box2 {
+            width: 65%;
+            margin-left: 3%;
+            float: left;
+        }
+
+        #img7 {
+            height: 280px;
+            width: 100%;
+        }
+
+        .qi {
+            height: 130px;
+            width: 100%;
+            /* padding-left: 20%; */
+            font-size: 36px;
+            line-height: 130px;
+            color: #666666;
+        }
+
+        /* #p04{
+            padding-left: 20%;
+            font-size: 36px;
+            line-height: 130px;
+            color: #666666;
+        } */
+        #p05 {
+            width: 200px;
+            font-size: 24px;
+            color: #333333;
+            height: 74px;
+            border-bottom: 1px solid #1dbcda;
+            line-height: 74px;
+        }
+
+        #p06 {
+            font-size: 16px;
+            color: #666666;
+            line-height: 30px;
+            padding-top: 25px;
+        }
+
+        #p07 span {
+            color: #666666;
+
+        }
+
+        #p07 {
+            padding-top: 20px;
+        }
+
+        #p08 {
+            color: #666666;
+            padding-top: 20px;
+        }
+
+        #p09 {
+            color: #666666;
+        }
+
+        .topleft {
+            width: 24%;
+            height: 325px;
+            float: left;
+        }
+
+        .topright {
+            width: 41%;
+            height: 325px;
+            float: left;
+        }
+
+        .bottomleft {
+            height: 375px;
+            width: 47%;
+            float: left;
+        }
+
+        .bottomright {
+            width: 18%;
+            height: 375px;
+            float: left;
+            margin-left: 3%;
+        }
+
+        #img8 {
+            height: 375px;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .pic {
+            height: 350px;
+            width: 100%;
+            margin-top: 80px;
+        }
+
+        .pic img {
+            float: left;
+            height: 350px;
+            width: 25%;
+            margin-top: 50px;
+        }
+
+        .font {
+            width: 60%;
+            margin: auto;
+            height: 270px;
+            margin-top: 56px;
+        }
+
+        .u0 {
+            float: left;
+        }
+
+        .u0 li {
+            line-height: 30px;
+            color: #6a6a6a;
+        }
+
+        .u1 {
+            float: left;
+            margin-left: 7%;
+        }
+
+        .u2 {
+            float: left;
+            margin-left: 8%;
+        }
+
+        .u3 {
+            float: left;
+            margin-left: 5%;
+        }
+
+        .u4 {
+            float: left;
+            margin-left: 5%;
+        }
+
+        .u5 {
+            float: left;
+            margin-left: 5%;
+        }
+
+        .u6 {
+            float: left;
+            margin-left: 8%;
+        }
+
+        .u1 li {
+            line-height: 30px;
+            color: #6a6a6a;
+        }
+
+        .u2 li {
+            line-height: 30px;
+            color: #6a6a6a;
+        }
+
+        .u3 li {
+            line-height: 30px;
+            color: #6a6a6a;
+        }
+
+        .u4 li {
+            line-height: 30px;
+            color: #6a6a6a;
+        }
+
+        .u5 li {
+            line-height: 30px;
+            color: #6a6a6a;
+        }
+
+        .u6 li {
+            line-height: 30px;
+            color: #6a6a6a;
+        }
+
+        .font ul li:nth-child(1) {
+            color: #000;
+            font: bolder;
+        }
+
+        .qi {
+            height: 50px;
+            width: 60%;
+            margin: auto;
+        }
+
+        #p00 {
+            font-size: 14px;
+            float: right;
+            padding-left: 30%
+        }
+
+        #a1 {
+            display: block;
+            float: left;
+            height: 20px;
+            font-size: 14px;
+            padding-top: 60px;
+            color: #6a6a6a;
+        }
+
+        #a2 {
+            display: block;
+            float: right;
+            height: 20px;
+            font-size: 14px;
+            padding-top: 24px;
+            position: absolute;
+            left: 64%;
+            top: 2900px;
+            color: #6a6a6a;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="zong">
+        <div class="one">
+            <img src="img/1-1.gif" id="img1">
+            <ul id="u0">
+                <li>关于新奥</li>
+                <li>新奥动态</li>
+                <li>业务布局</li>
+                <li>创新能力</li>
+                <li>人才激发</li>
+                <li>企业资质</li>
+            </ul>
+            <input type="text" id="inp1" value="搜索">
+            <img src="img/1-2.gif" alt="" id="img2">
+        </div>
+        <div class="two">
+            <ul id="u1">
+                <li>首页</li>
+                <li>关于奥创</li>
+                <li>集团简介</li>
+            </ul>
+            <img src="img/1-3.gif" alt="" id="img3">
+            <img src="img/1-3.gif" alt="" id="img4">
+        </div>
+        <div class="san">
+            <img src="img/1-4.jpg" alt="">
+        </div>
+        <div class="si">
+            <p id="p1">
+                新奥集团起步于1989年，以“创建现代能源体系、提高人民生活品质，成为受人尊敬的创新型智慧企业”为使命愿景，形成了贯通下游分销、中游贸易储运、上游生产的清洁能源产业链和涵盖健康、文化、旅游、置业的生命健康产品链。面向数字时代，新奥积极推动数字化转型，着力打造泛能网、来康网两大平台，构建清洁能源生态圈、生命健康生态圈。
+            </p>
+            <p id="p2">
+                目前，新奥集团服务范围覆盖中国27个省（市、自治区）的200多个城市，业务拓展至东南亚、南亚和非洲等地，雇员超过4.5万人，旗下有新奥能源、新奥股份、新智认知、西藏旅游4家上市公司，2019年经营收入达1645亿元人民币。
+            </p>
+        </div>
+        <div class="wu">
+            <div class="left">
+                <p class="p01"><a href="#">近50000</a><span>名</span></p>
+                <p class="p01" id="p4">现有员工数</p>
+            </div>
+            <div class="center">
+                <p class="p02"><a href="#">1645亿</a><span>元</span></p>
+                <p class="p02" id="p5">2019年经营收入</p>
+            </div>
+            <div class="right">
+                <p class="p03"><a href="#">超200</a><span>座</span></p>
+                <p class="p03" id="p6">国内业务覆盖城市</p>
+            </div>
+            <img src="img/1-5.gif" alt="" id="img5">
+            <img src="img/1-5.gif" alt="" id="img6">
+        </div>
+        <div class="liu">
+            <div class="qi">
+                <!-- <p id="p04">社会职责</p> -->
+                社会职责
+            </div>
+
+            <div class="box">
+                <div class="box1">
+                    <img src="img/1-7.jpg" alt="" id="img7">
+                    <p id="p05">环境责任</p>
+                    <p id="p06">推广清洁能源，实现节能减排，助力环境改善，为蓝天碧水增色。2001年以来，累计减排二氧化碳超过 1.3 亿吨。</p>
+                    <p id="p07"><a href="#">超1.3</a><span>亿吨</span></p>
+                    <p id="p08">累计减排二氧化碳</p>
+                </div>
+                <div class="box2">
+                    <div class="top">
+                        <div class="topleft">
+                            <p id="p05">就业纳税</p>
+                            <p id="p06">员工总数近 5 万人，带动生态圈伙伴共同成长，持续扩大就业并积极纳税。2019 年纳税达 57.8 亿元。</p>
+                            <p id="p07"><a href="#">达57.8</a><span>亿元</span></p>
+                            <p id="p09">2019年纳税额</p>
+                        </div>
+                        <div class="topright">
+                            <img src="img/1-7.jpg" alt="">
+                        </div>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div class="bottom">
+                        <div class="bottomleft">
+                            <img src="img/1-8.jpg" alt="" id="img8">
+                        </div>
+                        <div class="bottomright">
+                            <p id="p05">慈善事业</p>
+                            <p id="p06">积极参与赈灾救灾、扶危济困、捐资助教。以产业扶贫、教育扶贫为主线开展精准扶贫工作。公益慈善事业累积投入超过 15 亿元。</p>
+                            <p id="p07"><a href="#">15</a><span>亿元</span></p>
+                            <p id="p09">慈善事业累计投入</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="pic">
+                <img src="img/pic1.jpg" alt="">
+                <img src="img/pic2.jpg" alt="">
+                <img src="img/pic3.jpg" alt="">
+                <img src="img/pic4.jpg" alt="">
+            </div>
+            <div style="clear: both;"></div>
+            <div class="font">
+                <ul class="u0">
+                    <li>关于新奥</li>
+                    <li>集团简介</li>
+                    <li>领导团队</li>
+                    <li>事业版图</li>
+                    <li>生态战略</li>
+                </ul>
+                <ul class="u1">
+                    <li>新奥动态</li>
+                </ul>
+                <ul class="u2">
+                    <li>清洁能源产业链</li>
+                    <li>清洁能源产业链下游</li>
+                    <li>清洁能源产业链中游</li>
+                    <li>清洁能源产业链上游</li>
+                    <li>泛能与泛能网</li>
+                    <li>能源装备</li>
+                    <li>能源新材料</li>
+                    <li>环保技术</li>
+                </ul>
+                <ul class="u3">
+                    <li>健康生活产品链</li>
+                    <li>健康</li>
+                    <li>文化</li>
+                    <li>旅游</li>
+                    <li>置业</li>
+                    <li>来康网</li>
+                    <li>e城e家</li>
+                </ul>
+                <ul class="u4">
+                    <li>智能互联网平台</li>
+                    <li>行业认知解决方案</li>
+                    <li>智慧企业解决方案</li>
+                </ul>
+                <ul class="u5">
+                    <li>创新能力</li>
+                    <li>技术创新</li>
+                </ul>
+                <ul class="u6">
+                    <li>人才激发</li>
+                    <li>人才理念</li>
+                    <li>校园招聘</li>
+                    <li>社会招聘</li>
+                </ul>
+            </div>
+
+        </div>
+        <div style="clear: both;"></div>
+        <div class="qi">
+            <p id="p00">联系我们<span>法律声明</span></p>
+            <a href="#" id="a1">简体中文</a><a href="#" id="a2"> © 2014 新奥集团 版权所有 冀ICP备05013989号 </a>
+        </div>
+    </div>
+</body>
+
+</html>
